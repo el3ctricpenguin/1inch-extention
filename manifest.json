@@ -1,0 +1,12 @@
+{
+  "name": "1inch extention",
+  "version": "1.0.0",
+  "manifest_version": 2,
+  "description": "shows token price in title bar",
+  "content_scripts": [{
+    "matches": ["https://app.1inch.io/*"],
+    "js": [
+      "content.js"
+    ]
+  }]
+}
